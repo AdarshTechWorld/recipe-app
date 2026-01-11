@@ -1,0 +1,793 @@
+.Button{
+    background:#0c69a9;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+.icons:hover{
+    color: orange;
+}
+.Button-start{
+  background:green;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+.icons:hover{
+  color: orange;
+}
+/* main-banner */
+.banner{
+    width: 100%;
+    height: 750px;
+    background-color: #f5f5f5;
+    text-align: center;
+    overflow: hidden;
+}
+.chow{
+    position: absolute;
+    bottom: 580px;
+    right: 450px;
+}
+.ingri{
+    position: absolute;
+    right: 530px;
+    bottom: 500px;
+}
+.phone{
+    position: absolute;
+    left: 530px;
+    bottom: 1120px;
+}
+/* main-banner */
+/* Comparsion */
+.compare{
+  width: 100%;
+  height: 600px;
+  background-color: rgb(228, 255, 255);
+  text-align: center;
+}
+.chilli{
+  position: absolute;
+  bottom: 450px;
+  right: 450px;
+}
+.search{
+  position: absolute;
+  right: 500px;
+  bottom: 430px;
+}
+.copy{
+  position: absolute;
+  left: 500px;
+  bottom: 1000px
+}
+/* Comparsion */
+/* pricing */
+.pricing{
+  width: 100%;
+  height: 600px;
+  background-color:#D0F0C0;
+  text-align: center;
+}
+.car{
+  position: absolute;
+  bottom: 400px;
+  right: 450px;
+}
+.pasta{
+  position: absolute;
+  right: 480px;
+  bottom: 400px;
+}
+.price{
+  position: absolute;
+  left: 470px;
+  bottom: 950px;
+}
+/* pricing */
+.grey{
+    color: grey;
+}
+/* import-banner */
+.import{
+    width: 100%;
+    height: 650px;
+    background-color: #82f8c4;
+    text-align: center;
+}
+.spice{
+    position: absolute;
+    bottom: 480px;
+    right: 450px;
+}
+
+.vege{
+    position: absolute;
+    right: 530px;
+    bottom: 470px;
+}
+.book{
+    position: absolute;
+    left: 530px;
+    bottom: 1150px;
+}
+/* import-banner */
+/* organise-banner */
+.organise{
+    width: 100%;
+    height: 650px;
+    background-color: #86ebdc;
+    text-align: center;
+}
+.red{
+    position: absolute;
+    bottom: 490px;
+    right: 450px;
+}
+
+.straw{
+    position: absolute;
+    right: 500px;
+    bottom: 490px;
+}
+.glove{
+    position: absolute;
+    left: 450px;
+    bottom: 1200px;
+}
+/* organise-banner */
+/* web-banner */
+.web{
+    width: 100%;
+    height: 650px;
+    background-color: #f1e3ae;
+    text-align: center;
+}
+.spoon{
+    position: absolute;
+    bottom: 550px;
+    right: 450px;
+}
+
+.key{
+    position: absolute;
+    right: 500px;
+    bottom: 550px;
+}
+.pizza{
+    position: absolute;
+    left: 450px;
+    bottom: 1250px;
+}
+/* web-bnner */
+/* plan-banner */
+.cook{
+  width: 100%;
+  height: 650px;
+  background-color: #f5eed0;
+  text-align: center;
+}
+.bal{
+  position: absolute;
+  bottom: 550px;
+  right: 450px;
+}
+
+.flour{
+  position: absolute;
+  right: 500px;
+  bottom: 550px;
+}
+.vegetable{
+  position: absolute;
+  left: 500px;
+  bottom: 1252px;
+}
+/* plan-banner */
+/* video-banner */
+.video{
+  width: 100%;
+  height: 650px;
+  background-color: lightblue;
+  text-align: center;
+}
+.donet{
+  position: absolute;
+  bottom: 450px;
+  right: 450px;
+}
+
+.dhani{
+  position: absolute;
+  right: 480px;
+  bottom: 510px;
+}
+.melon{
+  position: absolute;
+  left: 500px;
+  bottom: 1200px;
+}
+/* video-banner */
+/* Get-start */
+.get{
+  width: 100%;
+  height: 650px;
+  background-color: #f2ffbf  ;
+  text-align: center;
+}
+.tom{
+  position: absolute;
+  bottom: 500px;
+  right: 450px;
+}
+
+.plate{
+  position: absolute;
+  right: 480px;
+  bottom: 470px;
+}
+.watermelon{
+  position: absolute;
+  left: 500px;
+  bottom: 1150px;
+}
+/* Get-start */
+
+.sign{
+  border-radius: 50%;
+}
+.video-container {
+  background-image: url('components/Features/image/video.png');
+  background-size: cover; /* This makes the image cover the entire div */
+  background-position: center; /* This centers the image */
+  width: 100%;
+  height: 800px; /* Set the height as needed */
+  position: relative;
+  margin-bottom: 0;
+}
+/* .video-container:hover{
+  transform: scale(1.1);
+} */
+.play{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 300px;
+  left: 400px;
+}
+.play:hover{
+  transform: scale(0.8);
+  
+}
+/* .video{
+  bottom: 20px;
+} */
+.HoBlue:hover{
+  color: skyblue;
+}
+.Bchop{
+    width: 100%;
+    height: 400px;
+    background-image: url('https://i.pinimg.com/736x/8d/fc/c5/8dfcc58cf6cd495392f6f0d3372c6053.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;   
+    align-content: center;
+    justify-items: center;
+}
+
+.custom-card{
+    height: 450px;
+}
+.heightcol2{
+  height: 950px;
+}
+/* BUTTON-1 */
+.button-1 {
+  appearance: none;
+  background-color: green;
+  border-radius: 40em;
+  border-style: none;
+  /* box-shadow: #ADCFFF 0 -12px 6px inset; */
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover {
+  background-color:#1cc2d6 ;
+  
+  /* box-shadow: #FF6314 0 -6px 8px inset; */
+  transform: scale(1.125);
+}
+
+.button-1:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-1 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+/* BUTTON-1 */
+/* BUTTON-2 */
+.button-2 {
+  appearance: none;
+  background-color: blueviolet;
+  border-radius: 40em;
+  border-style: none;
+  /* box-shadow: #ADCFFF 0 -12px 6px inset; */
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-2:hover {
+  background-color:#1cc2d6  ;
+  /* box-shadow: #FF6314 0 -6px 8px inset; */
+  transform: scale(1.125);
+}
+
+.button-2:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-2 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+/* BUTTON-2 */
+.button-84 {
+    align-items: center;
+    background-color: initial;
+    background-image: linear-gradient(#464d55, #25292e);
+    border-radius: 40em;
+    border-width: 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1),0 3px 6px rgba(0, 0, 0, .05);
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    font-family: expo-brand-demi,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 18px;
+    height: 52px;
+    justify-content: center;
+    line-height: 1;
+    margin: 0;
+    outline: none;
+    overflow: hidden;
+    padding: 0 32px;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition: all 150ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-84:hover {
+    color: green;
+    box-shadow: rgba(0, 1, 0, .2) 0 2px 8px;
+    opacity: .85;
+  }
+  
+  .button-84:active {
+    outline: 0;
+  }
+  
+  .button-84:focus {
+    box-shadow: rgba(0, 0, 0, .5) 0 0 0 3px;
+    background-color: green;
+  }
+  
+  @media (max-width: 420px) {
+    .button-84 {
+      height: 48px;
+    }
+  }
+.pine{
+  position: relative;
+}
+.contact{
+  left: 20%;
+  top: 55%;
+  position: absolute;
+  height: 400px;
+  width: 60%;
+  background-color: white;
+  border-radius: 1%;
+}
+.text{
+  text-align: center;
+  padding: 10%;
+}
+.text h1{
+  font-size: 3.3rem;
+  margin-bottom: 25px;
+}
+.text p{
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+}
+/* plan-button */
+.button-planbutton {
+  background-color: #0e780c;
+  border: 0;
+  border-radius: 56px;
+  color:black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  outline: 0;
+  padding: 16px 21px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-planbutton:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+
+.button-planbutton:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .button-planbutton {
+    padding: 16px 48px;
+  }
+}
+/* plan-button */
+/* CSS */
+.button-72 {
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(rgba(179, 132, 201, .84), rgba(57, 31, 91, .84) 50%);
+  border-radius: 42px;
+  border-width: 0;
+  box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,rgba(179, 132, 201, 0.4) 0 8px 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+  font-family: Quicksand,sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: .04em;
+  line-height: 16px;
+  margin: 0;
+  padding: 18px 18px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(57, 31, 91, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+}
+
+.button-72:hover {
+  background-image: linear-gradient(#B384C9, #391F5B 50%);
+}
+
+@media (min-width: 768px) {
+  .button-72 {
+    font-size: 21px;
+    padding: 18px 34px;
+  }
+}
+
+
+
+
+/* CSS */
+.button-71 {
+  background-color: #0078d0;
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 16px 21px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-71:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+
+.button-71:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .button-71 {
+    padding: 16px 48px;
+  }
+}
+/* sam */
+
+
+/* CSS */
+.button-77 {
+  align-items: center;
+  appearance: none;
+  background-clip: padding-box;
+  background-color: initial;
+  background-image: none;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: Eina01,sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  justify-content: center;
+  line-height: 24px;
+  margin: 0;
+  min-height: 64px;
+  outline: none;
+  overflow: visible;
+  padding: 19px 26px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: auto;
+  word-break: keep-all;
+  z-index: 0;
+}
+
+@media (min-width: 768px) {
+  .button-77 {
+    padding: 19px 32px;
+  }
+}
+
+.button-77:before,
+.button-77:after {
+  border-radius: 80px;
+}
+
+.button-77:before {
+  background-color: rgba(249, 58, 19, .32);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+
+.button-77:after {
+  background-color: initial;
+  background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  bottom: 4px;
+  content: "";
+  display: block;
+  left: 4px;
+  overflow: hidden;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  transition: all 100ms ease-out;
+  z-index: -1;
+}
+
+.button-77:hover:not(:disabled):after {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition-timing-function: ease-in;
+}
+
+.button-77:active:not(:disabled) {
+  color: #ccc;
+}
+
+.button-77:active:not(:disabled):after {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  top: 4px;
+}
+
+.button-77:disabled {
+  cursor: default;
+  opacity: .24;
+}
+
+
+.food{
+    -webkit-animation: rotate-center 10s ease-out infinite both;
+	        animation: rotate-center 10s ease-out infinite both;
+}
+@-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+
+.slant{
+    position: absolute;
+    transform: skew(10deg);
+    width: 50%;
+}
+.rev{
+    width: 32.3%;
+    /* margin-right: 1%; */
+}
+.Back{
+    background-image: url('https://wallpapercave.com/wp/9mKzPH5.jpg');
+    
+}
+.center{
+    justify-items: center;
+}
+.left{
+    text-align: left;
+}
+.disright:hover{
+    color: green;
+}
+.brown{
+    background-color: #2b2928;
+}
+.photo{
+    border-radius: 50%;
+    border: white 1px  solid;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+}
+.margin{
+    padding-inline:100px ;
+}
+.textwhite:hover{
+    color: white;
+}
+
+.magtop{
+    margin-top: 20px;
+}
+.marmain{
+    margin-bottom: 150px;
+}
+.martop{
+    margin-top: 150px;
+}
